@@ -24,6 +24,11 @@ const Sidebar = (props) => {
             </a>
           </li>
           <li>
+            <a href="#certificates" onClick={handleHide}>
+              Certificates
+            </a>
+          </li>
+          <li>
             <a href="#projects" onClick={handleHide}>
               Projects
             </a>

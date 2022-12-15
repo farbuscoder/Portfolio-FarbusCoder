@@ -18,7 +18,7 @@ const Tag = () => {
       <div className="download-icon">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1ezLx7b9hDbYLmkJogeA0jkk-5fhhVbSO/view?usp=sharing"
+          href="https://drive.google.com/file/d/1f7mB7FBTsqmZLRE96PzCYdADS4XxqbcX/view?usp=sharing"
         >
           <i className="fas fa-download"></i>
         </a>

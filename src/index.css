@@ -7,10 +7,11 @@
 }
 
 :root {
-  --background-color: #202020;
-  --green-color: #8eff7b;
+  --background-color: #1d1d1d;
+  --green-color: #fff01e;
   --gray-color: #3b3b3b;
   --lightblue-color: #87f5fb;
+  --purple-color: #1c1c29;
 }
 
 body {
@@ -40,6 +41,7 @@ body {
   opacity: 1;
   transition: all 0.4s ease-in-out;
   transition-delay: 0.3s;
+  font-family: "Readex Pro", sans-serif;
 }
 
 .side-bar ul {
@@ -93,7 +95,7 @@ body {
   height: 50px;
   width: 3.125rem;
   z-index: 50;
-  background-color: #8eff7b;
+  background-color: #fff01e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,16 +112,17 @@ body {
 }
 
 .about {
-  background-image: url(/src/assets/img/laptop.jpg);
+  /*background-image: url(/src/assets/img/laptop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Readex Pro", sans-serif;
+  z-index: -2;
 }
 
 @media (min-width: 62.5rem) {
@@ -337,7 +340,7 @@ body {
   border-bottom: none;
   border-left: none;
   border-right: none;
-  background-color: #141414;
+  background-color: transparent;
 }
 
 .contact h1 {
@@ -490,7 +493,7 @@ body {
 
 .scroll-to-top:hover {
   color: black;
-  background-color: var(--lightblue-color);
+  background-color: #fff01e;
 }
 
 .scroll-to-top i {
@@ -522,7 +525,7 @@ body {
   font-family: "Readex Pro", sans-serif;
 }
 .tag.show {
-  background-color: #8eff7b;
+  background-color: #fff01e;
   transform: translateY(100px);
 }
 
@@ -553,4 +556,44 @@ body {
 a {
   color: black;
   text-decoration: none;
+}
+
+.certificate {
+  /*border: 3px pink dashed;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  background-color: rgba(100, 100, 100, 0.605);
+  backdrop-filter: blur(3px);
+  border-radius: 1.4rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  margin: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-family: "Cabin", sans-serif;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.certificate_img {
+  /* border: 2px solid rgb(58, 253, 58);*/
+  height: 300px;
+  width: 500px;
+  object-fit: fill;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.certificate_info {
+  /*border: 3px dashed rgb(255, 186, 57);*/
+  margin: 0.3125rem;
+  padding: 0.625rem;
+  width: 35%;
+}
+
+.certificate_info h2 {
+  color: #fff01e;
 }

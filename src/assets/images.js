@@ -9,6 +9,12 @@ import reactJsPng from "./img/reactjs.png";
 import stockyApp from "./img/stokcy-app.PNG";
 import github from "./img/git-hub.png";
 import figma from "./img/figma-logo.png";
+import alkemy from "./img/alkemy.png";
+import me from "./img/me.jpg";
+import iters from "./img/iters.png";
+import utn from "./img/utn.png";
+import node from "./img/node.jpg";
+import udejs from "./img/udejs.jpg";
 
 export default {
   jsPng: jsPng,
@@ -22,4 +28,10 @@ export default {
   stockyApp: stockyApp,
   gitHub: github,
   figma: figma,
+  alkemy: alkemy,
+  me: me,
+  iters: iters,
+  utn: utn,
+  node: node,
+  udejs: udejs,
 };
