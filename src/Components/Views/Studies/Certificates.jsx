@@ -1,6 +1,8 @@
 import React from "react";
 import images from "../../../assets/images";
 
+import styled from "styled-components"
+
 const Title = styled.h1`
   text-align: center;
   color: white;

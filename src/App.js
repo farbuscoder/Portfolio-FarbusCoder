@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="body">
       <Sidebar show={show} setShow={setShow} />
-      <SideBarBtn show={show} setShow={setShow} />
+      <SideBarBtn style={{marginTop:"40px"}} show={show} setShow={setShow} />
       <Tag />
       <AppHome />
       {showButton && <ScrollToTop style={{ cursor: "pointer" }} />}

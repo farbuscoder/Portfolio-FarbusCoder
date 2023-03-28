@@ -15,6 +15,9 @@ import iters from "./img/iters.png";
 import utn from "./img/utn.png";
 import node from "./img/node.jpg";
 import udejs from "./img/udejs.jpg";
+import rnative from "./img/react-native.png";
+import mongoDb from "./img/mongo_db.png"
+
 
 export default {
   jsPng: jsPng,
@@ -34,4 +37,6 @@ export default {
   utn: utn,
   node: node,
   udejs: udejs,
+  rnative:rnative,
+  mongoDb:mongoDb,
 };

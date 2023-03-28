@@ -10,7 +10,7 @@ const Img = styled.img`
 const Title = () => {
   return (
     <>
-      <div className="title animate__fadeInUp" i>
+      <div className="title" i>
         <h1>Hello, I'm Marcos</h1>
         <p>
           I am a Computer sciences student and a frontend developer from

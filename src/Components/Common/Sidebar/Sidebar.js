@@ -20,27 +20,27 @@ const Sidebar = (props) => {
         <ul>
           <li>
             <a href="#welcome-section" onClick={handleHide}>
-              About
+            🏠 About
             </a>
           </li>
           <li>
             <a href="#certificates" onClick={handleHide}>
-              Certificates
+            🎓 Certificates
             </a>
           </li>
           <li>
             <a href="#projects" onClick={handleHide}>
-              Projects
+            👷 Projects
             </a>
           </li>
           <li>
             <a href="#skills" onClick={handleHide}>
-              My skills
+            ⚽ Dev skills
             </a>
           </li>
           <li>
             <a href="#contact" onClick={handleHide}>
-              Contact
+            💌 Contact
             </a>
           </li>
         </ul>

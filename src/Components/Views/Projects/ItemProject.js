@@ -13,6 +13,9 @@ const ItemProject = ({ project }) => {
           <Card.Text className="card-description">
             {project.description}
           </Card.Text>
+          <Card.Text className="card-description"  > 
+            Tecnologies:{project.tecnologies}
+          </Card.Text>
           <Button className="card-btn" variant="primary">
             <i className="fab fa-github"></i>
             <a href={project.url} target="_blank">

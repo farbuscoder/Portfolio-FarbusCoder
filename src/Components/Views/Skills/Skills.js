@@ -15,6 +15,9 @@ const Skills = () => {
     reactJsPng,
     gitHub,
     figma,
+    rnative,
+    mongoDb,
+    redux
   } = images;
 
   return (
@@ -52,6 +55,10 @@ const Skills = () => {
         />
         <ItemSKill image={gitHub} alt={"Git-Hub"} description={"Git-Hub"} />
         <ItemSKill image={figma} alt={"Figma"} description={"Figma"} />
+        <ItemSKill image={rnative} alt={"React-Native"} description={"React Native"} />
+        <ItemSKill image={mongoDb} alt={"Mongo_Db"} description={"Mongo Db Atlas"} />
+        <ItemSKill image={"https://v4.mui.com/static/logo.png"} alt={"Material_Ui"} description={"Material UI"} />
+        <ItemSKill image={"https://repository-images.githubusercontent.com/347723622/92065800-865a-11eb-9626-dff3cb7fef55"} alt={"Redux"} description={"Redux"} />
       </div>
     </div>
   );
